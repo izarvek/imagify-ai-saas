@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import "tailwindcss";
 
 .outfit-light {
@@ -34,4 +34,9 @@
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
+}
+
+.placeholder-color {
+  color: #e0e0e0;
+  font-weight: 300;
 }
