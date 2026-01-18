@@ -89,10 +89,10 @@ const Login = () => {
           />
         </div>
 
-        <p className="text-sm text-blue-600 my-4 cursor-pointer">
+        <p onClick={()=> alert("service can't be provided")} className="text-sm text-blue-600 my-4 cursor-pointer">
           Forgot password ?
         </p>
-        <button className="bg-blue-600 w-full text-white py-2 rounded-full">
+        <button className="bg-blue-600 active:bg-blue-900 hover:bg-blue-500 transition-all duration-100 ease-in-out w-full text-white py-2 rounded-full">
           {state == "Login" ? "login" : "create account"}
         </button>
 
