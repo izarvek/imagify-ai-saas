@@ -36,7 +36,7 @@ const Header = () => {
       initial={{opacity:0}}
       animate={{opacity:1}} 
       transition={{delay:0.4 , duration: 2}}
-      className="text-4xl max-w-[300px] sm:text-7xl sm:max-w-[590px] mx-auto mt-10 text-center">
+      className="text-4xl max-w-75 sm:text-7xl sm:max-w-147.5 mx-auto mt-10 text-center">
         Turn text to <span className="text-blue-600">image</span>, in seconds.
       </motion.h1>
 
